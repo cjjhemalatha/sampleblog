@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" href="C:\Users\Hp\Desktop\New folder\first_dance_blog\css\style.css"> 
+    <title>DANCE BLOG</title>
+    <link rel="shortcut icon" href="https://www.pinclipart.com/picdir/middle/15-157647_modern-dance-clipart-dancing-girl-png-transparent-png.png" type="image/png">
+    
+  </head>
+  <body>
+      <header class= "main_header">
+          <div class="d-flex justify-content-center align-items-center flex-column py-5">
+              <!--flex-column helps to get contents one below the other-->
+              <!-- py-5 is used to do padding by 5 -->
+            <h1 class="main_heading">DANCE BLOG</h1>
+            <!--difference between span and div : span is inline wraps small portion of text, images,etc. and div is block element wraps section of document -->
+            <p class="main_heading__para">Welcome to the  <span class="text-capitalize bg-dark text-white py-2 px-3 "> World of dance</span></p>
+           </div>
+           <!--the main images-->
+           <div class= "main_header__div d-flex align-items-start justify-content-center pl-5 flex-column shadow">
+               <!--to align the pic and other contents o left align-self-start is used -->
+               <p>Love Dance</p>
+               <h3 class="animateWord">
+                   <span>Dance is</span>
+                   <div>
+                       <ul class="flip">
+                           <li>Passion</li>
+                           <li>Art</li>
+                           <li>Stress Reliever</li>
+                           <li>Hidden langauge of the soul</li>
+                        </ul> 
+                    </div>
+                </h3>
+                <button class="text-uppercase"> subscribe</button>
+            </div>               
+        </header>  
+        <!--header endsss-->
+        <!--two sides div-->
+        <div class="container-fluid"><!--Containers are used to pad the contents inside them. 2 container classes: 1) .container -fixed width container 2) .container-fluid - full width -->
+            <div class="row">
+                <!--to get the left and right side div space-->
+                <div class="col-xl-10 col-lg-10 col-md-11 col-11 mx-auto my-5">
+                    <div class="row gx-5 mx-sm-auto"><!--gx is gutter-->
+                        <!--to get the left side of the div space-->
+                        <div class="col-lg-8 col-md-11 col-11 mx-auto">
+                            <div class="row gy-5">
+                                <!--first dance style hiphop-->
+                                <div class="col-12 card p-4 shadow blog_left__div"><!--card is a flexible and extensible content container-->
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                      <h1>HIP HOP</h1>
+                                      <p class="blog_title"><b>Roots from  </b> African American</p>
+                                     </div>
+                                     <figure class="right_side__img mb5">
+                                         <img src="https://i.pinimg.com/originals/42/e9/8b/42e98b550bb08401661d966084289a03.jpg" class="img-fluid shadow">
+
+                                     </figure>
+                                     <p> <b> Hip Hop </b>
+                                        dance refers to street dance styles primarily performed to hip-hop music or that have evolved as part of hip-hop culture. 
+                                        It includes a wide range of styles primarily breaking, locking, and popping which were created in the 1970s and made popular by dance crews in the United States.
+                                         The television show Soul Train and the 1980s films Breakin’, Beat Street, and Wild Style showcased these crews and dance styles in their early stages; therefore, giving hip-hop mainstream exposure. The dance industry responded with a commercial, studio-based version of hip-hop—sometimes called “new style”—and a hip-hop influenced style of jazz dance called “jazz-funk”. Classically trained dancers developed these studio styles in order to choreograph from the hip-hop dances that were performed on the street. 
+                                        Because of this development, hip-hop dance is practiced in both dance studios and outdoor spaces.
+                                    </p>
+                                    <p>
+                                        What distinguishes hip-hop from other forms of dance is that it is often “freestyle” (improvisational) in nature and hip-hop dance crews often engage in freestyle dance competitions—colloquially referred to as “battles”. Crews, freestyling, and battles are identifiers of this style. Hip-hop dance can be a form of entertainment or a hobby. It can also be a way to stay active in competitive dance and a way to make a living by dancing professionally.
+                                    </p>
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div>
+                                            <button class="left_div__like" id="like_btn">
+                                                <i class="fas fa-thumbs-up"></i> LIKE
+                                            </button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div__reply" onclick="reply('reply1')">
+                                                 Replies <badge class="bg-white text-dark p-2"> 1 </badge>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply1">
+                                        <div class="d-flex justify-content-start flex-row align-self-center card reply_card py-3">
+                                            <p>Awesome, bro I love the content.</p>
+                                        </div>    
+
+
+                                    </div>
+                                </div>
+
+
+                                <!--second dance style-->
+
+                                <div class="col-12 card p-4 shadow blog_left__div"><!--card is a flexible and extensible content container-->
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                      <h1>KATHAKALI</h1>
+                                      <p class="blog_title"><b>Roots from  </b> Kerala, India</p>
+                                     </div>
+                                     <figure class="center_side__img mb5">
+                                         <img src="https://i.pinimg.com/474x/ab/36/bf/ab36bfcdf19b4741a43771b7b132d879.jpg" class="img-fluid shadow mx-auto d-block">
+
+                                     </figure>
+                                     <p> <b> Kathakali </b>
+                                        is the most well known dance drama from the south In­dian state of Kerala.  The word Kathakali literally means "Story-Play".  It is known for its large, elaborate makeup and costumes.  The elaborate costumes of Kathakali have become the most re­cog­nised icon for Kerala.
+                                    </p>
+                                    <p>
+                                        The themes of the Kathakali are religious in nature.  They typically deal with the Mahabarat, the Ramayana and the ancient scriptures known as the Puranas.  This is performed in a text which is generally Sanskritised Malayalam.
+
+A Kathakali performance is a major social event.  They generally start at dusk and go through out the night.  Kathakali is usually performed only by men.  Female cha­rac­ters are portrayed by men dressed in women's costume.  However, in recent years, women have started to become Kathakali dan­cers.
+
+Kathakali has a long tradition.  It dates back to the 17th century.  It was given its pres­ent form by Mahakavi Vallathol Narayan Menon, who was the founder of the Kerala Kala Mandalam.
+
+The actors rely very heavily on hand gesture to convey the story.  These hand gestures, known as mudra, are com­mon through out much of classical In­dian dance.
+                                    </p>
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div>
+                                            <button class="left_div__like" id="like_btn">
+                                                <i class="fas fa-thumbs-up"></i> LIKE
+                                            </button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div__reply" onclick="reply('reply2')">
+                                                 Replies <badge class="bg-white text-dark p-2"> 2 </badge>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply2">
+                                        <div class="d-flex justify-content-start flex-row align-self-center card reply_card py-3">
+                                            <p>Awesome, bro I love the content.</p>
+                                        </div>    
+
+
+                                    </div>
+                                </div>
+
+
+                                <!--third dance style-->
+
+
+                                <div class="col-12 card p-4 shadow blog_left__div"><!--card is a flexible and extensible content container-->
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                      <h1>BHARATHNATYAM</h1>
+                                      <p class="blog_title"><b>Roots from  </b> Tamil Nadu, India</p>
+                                     </div>
+                                     <figure class="right_side__img mb5">
+                                         <img src="https://redsaltmulticuisine.files.wordpress.com/2015/12/bharatanatyam-dance-4.jpg" class="img-fluid shadow">
+
+                                     </figure>
+                                     <p> <b> Bharatanatyam </b>
+                                        is a dance of Tamil Nadu in southern India. It traces its origins back to the Natyashastra, an ancient treatise on theatre written by the mythic priest Bharata. Originally a temple dance for women, bharatanatyam often is used to express Hindu religious stories and devotions. It was not commonly seen on the public stage until the 20th century. The dance movements are characterized by bent legs, while feet keep rhythm. Hands may be used in a series of mudras, or symbolic hand gestures, to tell a story.
+                                    </p>
+                                    <p>
+                                        The name was invented in the twentieth century by the great dancer Rukmini Devi and others. It is supposed to indicate that this style was the original style described in a book on Natya by the sage Bharata, i.e. "Bharata's Dance". The text describes poses but in the absence of illustration, the exact poses had to be re-imagined -- the quality of this re-imagination is a tribute to the intellectual and aesthetic abilities of Rukmini Devi and her teachers, but there is no other link between Bharatanatyam now and the dances described in ancient Tamil texts.
+                                    </p>
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div>
+                                            <button class="left_div__like" id="like_btn">
+                                                <i class="fas fa-thumbs-up"></i> LIKE
+                                            </button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div__reply" onclick="reply('reply3')">
+                                                 Replies <badge class="bg-white text-dark p-2"> 3 </badge>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply3">
+                                        <div class="d-flex justify-content-start flex-row align-self-center card reply_card py-3">
+                                            <p>Awesome, bro I love the content.</p>
+                                        </div>    
+
+
+                                    </div>
+                                </div>
+
+
+                                <!--4th dance style-->
+                                <div class="col-12 card p-4 shadow blog_left__div"><!--card is a flexible and extensible content container-->
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                      <h1>SALSA</h1>
+                                      <p class="blog_title"><b>Roots from  </b> Eastern Cuba</p>
+                                     </div>
+                                     <figure class="right_side__img mb5">
+                                         <img src="https://dancebibles.com/wp-content/uploads/2020/04/Salsa-Dance-history-and-origin.jpg" class="img-fluid shadow">
+
+                                     </figure>
+                                     <p> <b> Salsa </b>
+                                        The origins of salsa date back to the 1900s in Eastern Cuba, where musical elements and rhythms from various styles were combined. Cuban son and Afro-Cuban rumba, the two main styles, used diverse musical instruments to create the basis of a rhythm that would later become known as salsa.
+                                    </p>
+                                    <p>
+                                        Almost 50 years went by before this new rhythm reached Havana. There, salsa absorbed influences from other local Cuban music and from American jazz and continued to evolve. Due to the Revolution in Cuba, many musicians relocated to the United States, especially to New York City. Among the Hispanic community, these musicians found an ideal environment to develop their rhythm into what we know as salsa today; this was especially true in ''El Barrio'', also known as Spanish Harlem.
+                                    </p>
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div>
+                                            <button class="left_div__like" id="like_btn">
+                                                <i class="fas fa-thumbs-up"></i> LIKE
+                                            </button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div__reply" onclick="reply('reply4')">
+                                                 Replies <badge class="bg-white text-dark p-2"> 4 </badge>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply">
+                                        <div class="d-flex justify-content-start flex-row align-self-center card reply_card py-3">
+                                            <p>Awesome, bro I love the content.</p>
+                                        </div>    
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--to get right side div space-->
+
+
+                        <div class="col-lg-3 col-md-7 col-11 justify-content-end m-lg-0 m-auto">
+                            <div class="row gy-5 left_div__blog">
+                                <!--about dance-->
+                                <div class="col-12 about_dance__div shadow">
+                                   <p> Dance</p>
+                                    <p> The art of precise, expressive, and graceful human movement, traditionally, but not necessarily, performed in accord with musical accompaniment. Dancing developed as a natural expression of united feeling and action. 
+To many, dance is only an art. In reality, dance is much more. It 's an art, a sport, a way to express one’s self, a way to exercise, a way to get feelings out. Since the beginning of time, humans have used different types of dance to express themselves. There are many advantages to dancing, however there are also some disadvantages. Dance is one of the most physically and cognitively demanding sports.</p>
+
+
+                                </div>
+
+                                <div class ="popular_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Popular Dancers</h2>
+                                    </div>
+                                    <div class="right_sub_div shadow">
+                                        <div class="row">
+                                            <div class="col-3 popular_posts__img1 py-2 pl-2">
+
+                                            </div>
+                                            <div class="col-9">
+                                                <h3>Les Twins</h3>
+                                                <p>Hip Hop</p>
+                                            </div>    
+                                        </div>
+
+
+                                        <div class="row">
+                                            <div class="col-3 popular_posts__img2 py-2 pl-2">
+
+                                            </div>
+                                            <div class="col-9">
+                                                <h3>Kalamandalam Padmanabhan Nair</h3>
+                                                <p>Father of Kathakali</p>
+                                            </div>    
+                                        </div>
+
+
+                                        <div class="row">
+                                            <div class="col-3 popular_posts__img3 py-2 pl-2">
+
+                                            </div>
+                                            <div class="col-9">
+                                                <h3>Bala Saraswati</h3>
+                                                <p>Queen of bharatanatyam</p>
+                                            </div>    
+                                        </div>
+
+
+                                        <div class="row">
+                                            <div class="col-3 popular_posts__img4 py-2 pl-2">
+
+                                            </div>
+                                            <div class="col-9">
+                                                <h3> Eddie Torres </h3>
+                                                <p>Father of all contemporary Salsa dancers</p>
+                                            </div>    
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <!--Advertisement part-->
+                                <div class="right_div_post">
+                                    <div class="right_div__title py-4 pl-2">
+                                        <h2>Advertise</h2>
+                                    </div>
+                                    <div class="right_sub__div">
+                                        <div class="advertise_img bg-light shadow">
+                                            <p>Ads goes here</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--tags-->
+
+                            <div class="right_div_post">
+                                <div class="right_div__title py-4 pl-2">
+                                    <h2>Tags</h2>
+                                </div>
+                                <div class="tags_main right_sub_div">
+                                <a href="https://youtu.be/7JusDEzjr_Q" target="_blank" class="badge shadow text-capitalize"> Hip-hop </a>
+                                <a href="https://youtu.be/JWhA3ldZcyY" target="_blank" class="badge shadow text-capitalize"> Bharatanatyam </a>
+                                <a href="https://youtu.be/_DNBgVAk9GE" target="_blank" class="badge shadow text-capitalize"> Kathakali </a>
+                                <a href="https://youtu.be/CPQKM2YJfnw" target="_blank" class="badge shadow text-capitalize"> Salsa </a>
+                                <a href="https://youtu.be/PYVvGMZbYzk" target="_blank" class="badge shadow text-capitalize"> Haka</a>
+                                <a href="https://youtu.be/OKky3rdSFV4" target="_blank" class="badge shadow text-capitalize"> Barong </a>
+                                <a href="https://youtu.be/CzANBg56hFo" target="_blank" class="badge shadow text-capitalize"> Eskista </a>
+                                <a href="https://youtu.be/VtSjPxKn3vs" target="_blank" class="badge shadow text-capitalize"> Flamenco </a>
+                                </div>
+                            </div>
+
+                    <!--Pics-->
+                    <div class=" right_div_post">
+                        <div class="right_div__title py-4 pl-2">
+                            <h2>Other interesting dance forms</h2>
+                        </div> 
+                        <div class="right_sub_div">
+                            <div class="row gx-3">
+                                <div class="col-6">
+                                    <figure>
+                                        <img src="https://i.pinimg.com/originals/36/e5/ed/36e5ed28f827de2105f602b51469cfd1.png" class="first_dance img-fluid shadow" onclick="alert('The haka is a type of ceremonial Māori dance or challenge which originates from New Zealand. Haka are usually performed in a group and typically represent a display of a tribe pride, strength and unity.')" alt=""/>
+                                    </figure>
+                                </div>
+
+                                <div class="col-6">
+                                    <figure>
+                                        <img src="https://i.pinimg.com/736x/1c/dd/3c/1cdd3c4502342a91abc6900da9729088.jpg" class="second_dance img-fluid shadow" onclick="alert('he dance demonstrates about the mythological depiction of animals that have supernatural powers and could protect humans. Barong is the king of the spirits, leader of the hosts of good, and enemy of Rangda, the demon queen and mother of all spirit guarders in the mythological traditions of Bali. The Barong dance featured battle between Barong and Rangda to represent the eternal battle between good and evil.')" alt=""/>
+                                    </figure>
+                                </div>
+
+                                <div class="col-6">
+                                    <figure>
+                                        <img src="https://i.ytimg.com/vi/UR__Z16AuLY/maxresdefault.jpg" class="third_dance img-fluid shadow" onclick="alert('Eskista is a traditional Ethiopian Amhara cultural dance performed by both men and women — even children, known for its unique emphasis on intense shoulder movement. The dance is characterized by rolling the shoulder blades, bouncing the shoulders, and jilting the chest. Eskista is typically performed to traditional Ethiopian Amhara music, but it is possible to incorporate the style of dance into modern forms of music such as the music played in modern Ethiopian music videos. The complex nature of Eskista dancing is what makes it arguably the most highly technical form of traditional dance.')"alt=""/>
+                                    </figure>
+                                </div>
+
+                                <div class="col-6">
+                                    <figure>
+                                        <img src="https://www.crushpixel.com/big-static18/preview4/beautiful-flamenco-dancers-performing-fiery-2899124.jpg" class="fourth_dance img-fluid shadow" onclick="alert('Evoking passion, temperament and energy, flamenco is one of the most exhilarating art forms to witness, both in the visual and in the audible sense. With centuries of socio-cultural evolution, flamenco has a rich history, which unfolds with every stomp of the dancer’s feet, strum of the musician’s guitar, and clap of the singer’s hands. In order to enjoy the flamenco of today, it might be useful though, to understand its origins, which are rooted in the gypsy culture of Andalusia, in the south of Spain.')"alt=""/>
+                                    </figure>
+                                </div>
+                            </div>
+                                
+                        </div>
+                    </div>    
+                    <!--follow me-->
+
+                    <div class="right_div_post">
+                        <div class="right_div__title py-4 pl-2">
+                            <h2>Follow me</h2>
+                        </div>
+                        <div class="right_sub_div d-flex justify-content-around">
+                            <a href="#"><i class="fab fa-3x fa-facebook-square"></i></a>
+                            <a href="#"><i class="fab fa-3x fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-3x fa-twitter-square"></i></a>
+                            <a href="#"><i class="fab fa-3x fa-youtube-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+
+        </div>
+        </div>
+        </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+
+    <script type="text/javascript">
+        const reply= (res) => {
+            var res= document.getElementById(res);
+            console.log(res);
+            if(res.className=="replies"){
+                res.className="reply_show";
+            }else if(res.className=="reply_show"){
+                res.className="replies";
+            }
+        }
+
+        const like = document.getElementById('like_btn');
+        const singleClick= () => {
+            like.style.fontWeight ='bold';
+            like.style.background='#bbe1fa';
+            like.style.color = '#1b262c';
+            like.innerHTML = "Liked";
+
+        } 
+
+        
+        const doubleClick= () => {
+            like.style.fontWeight ='normal';
+            like.style.background='#3282b8';
+            like.style.color = '#fff';
+            like.innerHTML = "Like";
+
+        } 
+
+
+        var clickCount = 0;
+        like.addEventListener('click', function(){
+            clickCount++;
+            if(clickCount===1){
+                singleClickTimer= setTimeout(function(){
+                    clickCount=0;
+                    singleClick();
+                },400);
+            } else if(clickCount===2){
+                clearTimeout(singleClickTimer);
+                clickCount=0;
+                doubleClick();
+            }
+        },false);
+
+    </script>
+  </body>
+</html>
